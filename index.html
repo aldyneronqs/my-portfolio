@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - RONQUILLO PORTFOLIO</title>
+
+    <!-- FavIcon -->
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Link to BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Link to GoogleFonts -->
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   
+
+    <!-- Navigation Bar Start -->
+<nav id="nav" class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm">
+    <div class="container">
+        <a id="name" class="navbar-brand fw-bold" href="index.html">
+            <img id="logo" src="images/logo.ico" alt="logo" class="rounded-circle img-fluid">
+            DevFolio
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tools">Tools I Use</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hobbies">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navigation Bar End -->
+
+<!-- Home Page Start -->
+<section id="home" class="container-fluid p-0">
+    <!-- Carousel Start -->
+    <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="bg-img" style="background-image: url('https://img.freepik.com/premium-photo/geometric-black-background-abstract-4k-dark-tone-black-wallpaper-backdrop-gradient-animation_715671-1537.jpg');">
+                    <div class="overlay"></div>
+                    <div class="carousel-caption d-flex flex-column justify-content-center text-center mt-5">
+                        <h1 class="carousel-heading">My Portfolio</h1>
+                        <p class="carousel-text">Discover my Projects for Development</p>
+                        <a href="#projects" class="btn btn-info btn-custom">My Projects</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-img" style="background-image: url('https://wallpaperbat.com/img/8641302-black-wallpaper-free-beautiful-hd.jpg');">
+                    <div class="overlay"></div>
+                    <div class="carousel-caption d-flex flex-column justify-content-center text-center mt-5">
+                        <h1 class="carousel-heading">About Me</h1>
+                        <p class="carousel-text">An Inspiring Future Developer</p>
+                        <a href="#about" class="btn btn-info btn-custom">Learn More About Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-img" style="background-image: url('https://img.freepik.com/premium-photo/geometric-black-background-abstract-4k-dark-tone-black-wallpaper-backdrop-gradient-animation_715671-1559.jpg');">
+                    <div class="overlay"></div>
+                    <div class="carousel-caption d-flex flex-column justify-content-center text-center mt-5">
+                        <h1 class="carousel-heading">Tools I Use</h1>
+                        <p class="carousel-text">Explore the tools I Use</p>
+                        <a href="#tools" class="btn btn-info btn-custom">View Tools</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Overlay Content Start -->
+    <div class="overlay d-flex align-items-center justify-content-center">
+        <div class="row align-items-center w-100">
+            <div class="col-12 col-md-7 align-items-center d-flex flex-column justify-content-center  text-md-start mb-4 mb-md-0 " id="left"> 
+                <h1 class="name">I'm Aldyne Ronquillo</h1>
+                <p class="intro">A Third Year student in the Bachelor of Science in Information Technology</p>
+            </div>
+            <div class="col-12 col-md-5 text-center " id="right">
+                <img id="profile" src="images/grad.jpg" alt="Profile Picture" class="profile-home img-fluid rounded-circle mb-5 img-fluid mb-5">
+            </div>
+        </div>
+    </div>
+    <!-- Overlay Content End -->
+</section>
+<!-- Home Page End -->
+
+  
+
+        <!-- Projects Page Start -->
+        <section id="projects" class="container-fluid py-5 bg-light">
+            <h2 class="text-center mb-4">My Projects</h2>
+            <div class="row">
+                <!-- Project Card 1 -->
+                <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                    <div class="card border-0 shadow-sm mx-auto">
+                        <img src="https://miro.medium.com/v2/resize:fit:1400/1*aS0EzkGYeSfGk0m9Uig5pw.jpeg" class="card-img-top" alt="Number Guessing Game">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Number Guessing Game</h5>
+                            <p class="card-text">This was a simple group game project back when we were freshmen. It was coded with Python The game will start automatically after launching it. It will give you a random number to solve. It also has a feature where the attempts are random. The game gives you hints as if higher or lower. Our main twist is that the game will provide a random number of attempts for the user to solve.</p>
+                            <a href="https://www.geeksforgeeks.org/number-guessing-game-in-python/" class="btn btn-info" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                    <div class="card border-0 shadow-sm mx-auto">
+                        <img src="https://miro.medium.com/v2/resize:fit:672/0*_uzfQdnYDBYbCgQO.png" class="card-img-top" alt="Power BI with SQL">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Power BI with SQL</h5>
+                            <p class="card-text">This is our final lab requirement in INFORMATION MANAGEMENT during the second year, second semester. I was part of the leadership team. This project was made by the whole class. We started it by collecting different local business information around Pampanga. Then we sorted them and made sure that it would not have a problem transporting it to SQL. Lastly, we presented using Power BI.</p>
+                            <a href="https://app.powerbi.com/" class="btn btn-info" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                    <div class="card border-0 shadow-sm mx-auto">
+                        <img src="https://miro.medium.com/v2/resize:fit:1104/1*Gkn1cI7mGKql5BnaOOEUhg.jpeg" class="card-img-top" alt="Motion Detector For House Security">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Motion Detector For House Security</h5>
+                            <p class="card-text">This was our final requirement in PROGRAMMING 2 (Python). We use the Raspberry Pi model 3b, which will be our central processing unit. This project is a motion detector sensor that will detect movements and will send an automatic email or text when the motion happens. Other components are SD cards, breadboards, cables, and cameras.</p>
+                            <a href="https://www.instructables.com/Raspberry-Pi-Motion-Detection-Security-Camera/" class="btn btn-info" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                    <div class="card border-0 shadow-sm mx-auto">
+                        <img src="images/figma.png" class="card-img-top" alt="Prototyping with Figma">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Prototyping with Figma</h5>
+                            <p class="card-text">This is an individual project that I made in the subject of INTRO TO HUMAN-COMPUTER INTERACTION. The idea of this is to create my mother a website since he sells different kinds of cake and desserts. I utilized the platform Figma and came up with that output.</p>
+                            <a href="https://www.figma.com/proto/AuFhKuQ7dIRmrJneN2QaDF/THE-BAKED-BLOG?node-id=1-4&node-type=canvas&t=HOMyyfJL3Qn7Tqfd-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" class="btn btn-info" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 5 -->
+                <div class="col-lg-4 col-md-6 mb-4 d-flex">
+                    <div class="card border-0 shadow-sm mx-auto">
+                        <img src="images/ua.png" class="card-img-top" alt="Prototyping UA Website using Figma">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Prototyping UA Website using Figma</h5>
+                            <p class="card-text">This was a group project that we created in INTRO TO HUMAN-COMPUTER INTERACTION. This project objective is to remake and improve the University Of The Assumption Website. This project was done in Figma.</p>
+                            <a href="https://www.figma.com/proto/nzXUsSB3Pwo4yomFsDUSJX/UA-Website(new)-(Copy)?node-id=89-453&node-type=canvas&t=HOvUrvJXnwLOFZi8-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=89%3A453" class="btn btn-info" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Page End -->
+
+
+
+
+        <!-- About Me Page Start -->
+        <section id="about" class="container-fluid py-5">
+            <div class="row align-items-center">
+                <!-- Left profile image column -->
+                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-center mb-4 mb-md-0">
+                    <img id="profile" src="images/about.jpg" alt="Profile Picture" class="profile-img img-fluid mb-4 mb-md-0">
+                </div>
+                <!-- Right text column -->
+                <div class="col-12 col-md-6 text-center text-md-start">
+                    <h1 class="name">About Me</h1>
+                    <p class="intro">I am Aldyne A. Ronquillo, and I live in San Simon, Pampanga. I have an older brother who is a graduating student at AUF, studying Medical Technology. I spent most of my childhood growing up with my mother, as my father is an OFW in Korea. In my free time, I often play basketball with my friends. I enjoy listening to different types of music, including rap and music that helps me focus and think. As a Kapampangan, I love eating sisig, it's my all-time favorite food. I also have a passion for collecting shoes and would love to have as many as I can.</p>
+                </div>
+            </div>
+        </section>
+        <!-- About Me Page End -->
+
+
+
+
+        
+        <!-- Tools I Use Page Start -->
+        <section id="tools" class="container-fluid py-5 bg-light">
+            <h2 class="text-center mb-4">Tools I Use</h2>
+            <div class="row">
+                <!-- Tool Card 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://pixelmechanics.com.sg/wp-content/uploads/2019/06/html5-logo-for-web-development.png" class="card-img-top" alt="HTML">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">HTML</h5>
+                            <p class="card-text">HTML (HyperText Markup Language) is the standard language used to create and structure content on the web. It defines the elements like headings, paragraphs, links, images, and more, that form the basic building blocks of a webpage.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tool Card 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://www.codespot.org/assets/css.jpg" class="card-img-top" alt="CSS">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">CSS</h5>
+                            <p class="card-text">CSS (Cascading Style Sheets) is a language used to describe how HTML elements should look on a webpage. It controls the layout, colors, fonts, spacing, and overall design, making websites visually appealing and easy to navigate.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tool Card 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" class="card-img-top" alt="SQL">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">SQL</h5>
+                            <p class="card-text">
+                                SQL (Structured Query Language) is a programming language used to manage and manipulate databases. It allows you to create, read, update, and delete data within a database, as well as perform tasks like searching for specific records or organizing data in tables.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tool Card 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png" alt="Python">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Python</h5>
+                            <p class="card-text">
+                                Python is a high-level, general-purpose programming language known for its simplicity and readability. It is widely used in various fields such as web development, data analysis, artificial intelligence, automation, and scientific computing. Python's easy-to-understand syntax makes it beginner-friendly while being powerful enough for experts to build complex applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tool Card 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://logos-world.net/wp-content/uploads/2022/07/Java-Logo.png" alt="Java">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Java</h5>
+                            <p class="card-text">
+                                Java is a high-level, object-oriented programming language used to build applications for various platforms, including web, mobile, and desktop. It's known for being platform-independent, meaning code written in Java can run on any system that supports the Java Virtual Machine (JVM). Java is widely used for developing large-scale enterprise applications, Android apps, and web-based software.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tool Card 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Symbol.png" alt="Javascript">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">JavaScript</h5>
+                            <p class="card-text">
+                                JavaScript is a programming language primarily used for adding interactive elements to websites. It allows developers to create dynamic content such as animations, form validations, real-time updates, and more. JavaScript runs directly in the browser, enabling things like user interactions and content changes without needing to reload the webpage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools I Use Page End -->
+        
+        <!-- Hobbies Page Start -->
+        <section id="hobbies" class="container-fluid py-5 bg-light">
+            <h2 class="text-center mb-4">Hobbies</h2>
+            <div class="row">
+                <!-- Hobby Card 1 -->
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/h_363,c_limit/98bac725-b631-49cc-a331-a9b76972a038/every-position-in-basketball-explained.jpg" class="card-img-top" alt="Basketball">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title">Basketball</h5>
+                            <p class="card-text flex-grow-1">I love playing basketball with friends during my free time. It helps me get exercise even on busy school days. Playing basketball has become somewhat of a stress reliever for me, as it brings me peace while playing.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hobby Card 2 -->
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://media.licdn.com/dms/image/v2/D5612AQFdxjdPnpcCuA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1709147543497?e=2147483647&v=beta&t=7r5nTpbf-B5b6MBRlcU6R5pwW8YGksnc2zFfD918isM" class="card-img-top" alt="Online Games">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title">Online Games</h5>
+                            <p class="card-text flex-grow-1">Playing online games is one of my favorite ways to unwind and have fun. It offers an exciting escape from the real world, allowing me to explore different worlds, compete with friends, and improve my skills. Whether it's a fast-paced action game or a strategic multiplayer match, I love the thrill of competition and the sense of accomplishment when I overcome challenges.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hobby Card 3 -->
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://sm.ign.com/t/ign_ap/screenshot/default/thibault-penin-3hinbcmq8ro-unsplash_cp4j.1280.jpg" class="card-img-top" alt="Watching Movies">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title">Watching Movies</h5>
+                            <p class="card-text flex-grow-1">Watching movies is a wonderful way for me to relax and escape into different stories and worlds. I enjoy everything from classic films to the latest blockbusters, finding joy in the variety of genres and storytelling styles. Movies provide a great way to unwind after a busy day, offering entertainment and sometimes even inspiration.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hobbies Page End -->
+
+
+        <!-- Contact Page Start -->
+        <section id="contact" class="container-fluid py-5">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row">
+                <!-- Google Map on the left side -->
+                <div class="col-md-6">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d291.32862689645106!2d120.731108117236!3d15.02373573018856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f9004119f09b%3A0x59bff51af82e7a06!2sDela%20Paz%20San%20Simon!5e1!3m2!1sen!2sph!4v1726154747867!5m2!1sen!2sph" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                <!-- Contact Form in a card on the right side -->
+                <div class="col-md-6">
+                    <div class="card p-4 h-100">
+                        <h4 class="card-title text-center mb-4">Contact Form</h4>
+                        <form id="response">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Enter Full Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Enter Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="number" class="form-label">Enter Phone Number</label>
+                                <input type="number" class="form-control" id="number" placeholder="Phone Number" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Type Your Message Here" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-info">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Page End -->
+
+
+
+        <!-- Footer Start -->
+        <footer class="bg-dark text-white text-center py-4">
+            <div class="container">
+                <!-- Centered Name -->
+                <div class="footer-content">
+                    <div class="social-icons mb-3">
+                        <a href="https://www.facebook.com/aldyne.ronquillo.9/" target="_blank" class="mx-2">
+                            <img src="https://cdn-icons-png.flaticon.com/128/15047/15047435.png" alt="Facebook" class="social-icon">
+                        </a>
+                        <a href="https://www.instagram.com/aldyneronqs?igsh=MW4zYXZ2aXk5NjFscA%3D%3D&utm_source=qr" target="_blank" class="mx-2">
+                            <img src="https://cdn-icons-png.flaticon.com/128/15707/15707749.png" alt="Instagram" class="social-icon">
+                        </a>
+                        <a href="https://x.com/aldyneronqss?s=21&t=zHMjgpARTmMWh_6Vc05lYA" target="_blank" class="mx-2">
+                            <img src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png" alt="X" class="social-icon">
+                        </a>
+                        <a href="https://github.com/aldyneronqs" target="_blank" class="mx-2">
+                            <img src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="Github" class="social-icon">
+                        </a>
+                        <a href="https://www.tiktok.com/@aldyneronqs?_t=8petYUzOlWy&_r=1" target="_blank" class="mx-2">
+                            <img src="https://cdn-icons-png.flaticon.com/128/4782/4782345.png" alt="Tiktok" class="social-icon">
+                        </a>
+                    </div>
+                    <h2 class="footer-name">Aldyne A. Ronquillo</h2>
+                    <p class="mb-0">All rights reserved &copy; 2024</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+
+
+
+
+
+        <!-- Link to Script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    </body>
+    </html>
